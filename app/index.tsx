@@ -1,12 +1,9 @@
-import { Text, View } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 export default function App() {
  return (
-    <View style={{
-      flex: 1,
-      backgroundColor: '#131016',
-      padding: 24,
-    }}>
+  
+    <View style={styles.container}>
 
     <Text style={{
       color: '#FDFCFE',
@@ -26,3 +23,11 @@ export default function App() {
     </View>
  )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#131016',
+    padding: 24,
+  }
+});
