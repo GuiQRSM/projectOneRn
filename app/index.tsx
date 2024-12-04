@@ -9,9 +9,9 @@ export default function App() {
       Nome do evento
    </Text>
    
-    <Text style={{
-      
-    }}>Sexta, 4 de Novembro de 2024</Text>
+    <Text style={styles.eventDate}>
+      Sexta, 4 de Novembro de 2024
+    </Text>
 
     </View>
  )
