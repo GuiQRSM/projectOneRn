@@ -14,6 +14,8 @@ export default function Home() {
       Sexta, 4 de Novembro de 2024
     </Text>
 
+    <TextInput style={styles.input}/>
+
     </View>
  )
 }
