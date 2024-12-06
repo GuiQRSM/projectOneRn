@@ -18,8 +18,10 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     input: {
-      backgroundColor: '#1F1E25',
+      backgroundColor: '#1F1FE25',
       height: 56,
       borderRadius: 5,
+      padding: 16,
+      color: '#FFF',
     }
   });
