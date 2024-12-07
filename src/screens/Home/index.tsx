@@ -19,8 +19,10 @@ export default function Home() {
     placeholderTextColor='#6B6B6B'
     />
 
-    <TouchableOpacity>
-      <Text>Clique aqui</Text>
+    <TouchableOpacity style={styles.button}>
+      <Text style={
+        styles.buttonText
+      }>Clique aqui</Text>
     </TouchableOpacity>
 
     </View>
