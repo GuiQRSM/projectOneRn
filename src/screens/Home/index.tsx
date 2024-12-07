@@ -22,7 +22,7 @@ export default function Home() {
     <TouchableOpacity style={styles.button}>
       <Text style={
         styles.buttonText
-      }>Clique aqui</Text>
+      }>+</Text>
     </TouchableOpacity>
 
     </View>
