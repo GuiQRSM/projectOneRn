@@ -1,4 +1,4 @@
-import { Text, View, TextInput } from 'react-native';
+import { Text, View, TextInput, TouchableOpacity } from 'react-native';
 import { styles } from './styles'
 
 export default function Home() {
@@ -18,6 +18,10 @@ export default function Home() {
     placeholder='Nome do participante'
     placeholderTextColor='#6B6B6B'
     />
+
+    <TouchableOpacity>
+      <Text>Clique aqui</Text>
+    </TouchableOpacity>
 
     </View>
  )
