@@ -32,10 +32,10 @@ export const styles = StyleSheet.create({
     button: {
       width: 56,
       height: 56,
-      borderRadius: 5,
-      backgroundColor: '#31cf67',
+      borderRadius: 4,
+      backgroundColor: '#31CF67',
       marginTop: 10,
-     alignItems: 'center',
-     justifyContent:'center'
+      alignItems: 'center',
+      justifyContent: 'center',
     }
   });

@@ -3,8 +3,8 @@ import { styles } from './styles'
 
 export default function Home() {
 
-  function handleParticipantAdd() {
-    
+  function handleParticipantAdd(){
+    console.log("Clicado!")
   }
 
  return (
@@ -24,10 +24,8 @@ export default function Home() {
     placeholderTextColor='#6B6B6B'
     />
 
-    <TouchableOpacity style={styles.button}>
-      <Text style={
-        styles.buttonText
-      }>+</Text>
+    <TouchableOpacity style={styles.button} onPress={handleParticipantAdd}>
+      <Text style={styles.buttonText}>+</Text>
     </TouchableOpacity>
 
     </View>
