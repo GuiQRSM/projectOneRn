@@ -5,7 +5,7 @@ export default function Home() {
 
   function handleParticipantAdd(){
     console.log("Clicado!")
-  }
+  }""
 
  return (
 
@@ -18,8 +18,10 @@ export default function Home() {
     <Text style={styles.eventDate}>
       Sexta, 4 de Novembro de 2024
     </Text>
+     
+     <View style={styles.form}>
 
-    <TextInput style={styles.input}
+     <TextInput style={styles.input}
     placeholder='Nome do participante'
     placeholderTextColor='#6B6B6B'
     />
@@ -27,6 +29,8 @@ export default function Home() {
     <TouchableOpacity style={styles.button} onPress={handleParticipantAdd}>
       <Text style={styles.buttonText}>+</Text>
     </TouchableOpacity>
+
+     </View>
 
     </View>
  )
