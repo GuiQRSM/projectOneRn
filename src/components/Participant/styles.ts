@@ -5,14 +5,15 @@ export const styles = StyleSheet.create({
         width: '100%',
         backgroundColor: '#1F1E25',
         borderRadius: 5,
-        flexDirection: 'row',
+        flexDirection:'row',
         alignItems: 'center',
-        marginBottom: 10,
+        marginBottom: 3,
+        marginTop: 10
     },
     name: {
         color: '#EEE',
-        flex: 1,
         fontSize: 16,
+        flex: 1,
         marginLeft: 16,
     },
     buttonText: {
@@ -22,10 +23,10 @@ export const styles = StyleSheet.create({
       button: {
         width: 56,
         height: 56,
-        borderRadius: 4,
+        borderRadius: 5,
         backgroundColor: '#E23C44',
-        marginTop: 10,
         alignItems: 'center',
         justifyContent: 'center',
-    },
+      },
+
 })
