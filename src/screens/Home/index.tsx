@@ -33,8 +33,8 @@ export default function Home() {
 
      </View>
 
-     <Participant />
-     <Participant />
+     <Participant name="NameTest1"/>
+     <Participant name="NameTest1"/>
 
     </View>
  )
