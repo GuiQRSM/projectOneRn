@@ -6,7 +6,11 @@ export default function Home() {
 
   function handleParticipantAdd(){
     console.log("Clicado!")
-  }""
+  }
+
+  function handleParticipantRemove(name: String) {
+    console.log(`Vlicado em remover ${name}`)
+  }
 
  return (
 
@@ -33,9 +37,7 @@ export default function Home() {
 
      </View>
 
-     <Participant name="NameTest1"/>
-     <Participant name="NameTest1"/>
-
+     <Participant name="NameTest1" onRemove={() => handleParticipantRemove("Guilherme")}/>
     </View>
  )
 }
