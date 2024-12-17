@@ -1,4 +1,4 @@
-import { Text, View, TextInput, TouchableOpacity, ScrollView } from 'react-native';
+import { Text, View, TextInput, TouchableOpacity, FlatList } from 'react-native';
 import { styles } from './styles'
 import { Participant } from '@/src/components/Participant';
 
@@ -39,7 +39,6 @@ export default function Home() {
 
      </View>
 
-    <ScrollView showsVerticalScrollIndicator={false}>
     {
       participants.map(participants => (
         <Participant
@@ -49,7 +48,6 @@ export default function Home() {
         />
       ))
     }
-    </ScrollView>
     
     </View>
  )
