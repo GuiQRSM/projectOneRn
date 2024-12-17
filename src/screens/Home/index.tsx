@@ -38,8 +38,8 @@ export default function Home() {
     </TouchableOpacity>
 
      </View>
-    
-    <FlatList 
+
+    <FlatList
     data={participants}
     keyExtractor={item => item}
     renderItem={({item}) => (
@@ -51,10 +51,10 @@ export default function Home() {
     )}
     showsVerticalScrollIndicator={false}
     ListEmptyComponent={() => (
-      <Text style={styles.listEmptyText}>Adicione pessoas no evento!</Text>
+      <Text style={styles.listEmptyText}>Adicione pessoas no seu evento!</Text>
     )}
     />
-
+    
     </View>
  )
 }
