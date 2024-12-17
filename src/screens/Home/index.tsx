@@ -38,17 +38,19 @@ export default function Home() {
     </TouchableOpacity>
 
      </View>
-
-    {
-      participants.map(participants => (
-        <Participant
-        key={participants}
-        name={participants}
-        onRemove={handleParticipantRemove}
-        />
-      ))
-    }
     
+    <FlatList 
+    data={participants}
+    keyExtractor={item => item}
+    renderItem={({item}) => (
+      <Participant
+      key={item}
+      name={item}
+      onRemove={handleParticipantRemove}
+      />
+    )}
+    />
+
     </View>
  )
 }
