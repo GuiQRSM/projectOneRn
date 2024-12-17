@@ -49,6 +49,10 @@ export default function Home() {
       onRemove={handleParticipantRemove}
       />
     )}
+    showsVerticalScrollIndicator={false}
+    ListEmptyComponent={() => (
+      <Text style={styles.listEmptyText}>Adicione pessoas no evento!</Text>
+    )}
     />
 
     </View>
