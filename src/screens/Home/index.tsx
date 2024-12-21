@@ -1,4 +1,4 @@
-import { Text, View, TextInput, TouchableOpacity, FlatList } from 'react-native';
+import { Text, View, TextInput, TouchableOpacity, FlatList, Alert } from 'react-native';
 import { styles } from './styles'
 import { Participant } from '@/src/components/Participant';
 
@@ -7,7 +7,9 @@ export default function Home() {
   const participants = ['Name1', 'Name2', 'Name3', 'Name4', 'Name5', 'Name6', 'Name7']
 
   function handleParticipantAdd(){
-    console.log("Clicado!")
+    if(participants.includes("Name3")) {
+
+    }
   }
 
   function handleParticipantRemove() {
